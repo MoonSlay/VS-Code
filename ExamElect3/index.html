@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Web Development Quiz</h1>
+  </header>
+
+  <main>
+    <section id="landing-page">
+      <h2>Welcome to the Web Development Quiz!</h2>
+      <p>Test your knowledge on basic web development topics. Click the button below to get started!</p>
+      <button id="start-quiz">Start Quiz</button>
+    </section>
+
+    <section id="quiz-section" style="display: none;">
+        <div id="progress-bar-container"></div>
+        <div id="question-container"></div>
+        <button id="submit-answer">Submit Answer</button>
+        <div id="feedback"></div>
+    </section>
+
+    <section id="score-section" style="display: none;">
+      <h2>Quiz Complete</h2>
+      <p id="score-message"></p>
+      <button id="restart-quiz">Restart Quiz</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Web Development Quiz</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
